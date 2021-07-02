@@ -95,7 +95,7 @@ function initOwlSlider() {
 
     var $hotVideoList = $('.hot-video-list');
     $hotVideoList.owlCarousel({
-        nav: false,
+        nav: true,
         dots: false,
         loop: true,
         navText: ["<i class='glyphicon glyphicon-menu-left nav-prev'></i>", "<i class='glyphicon glyphicon-menu-right nav-next'></i>"],

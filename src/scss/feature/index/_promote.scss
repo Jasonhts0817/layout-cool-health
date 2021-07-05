@@ -58,7 +58,6 @@
       border-left: map-get($map: $color, $key: gender) solid 11px;
     }
     img {
-      object-fit: cover;
       height: calc(100vh - #{$header-height-pc});
     }
   }

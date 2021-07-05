@@ -148,8 +148,6 @@
   }
 
   .new-img img {
-    -o-object-fit: cover;
-       object-fit: cover;
     height: 100%;
     width: 440px !important;
   }
@@ -571,8 +569,6 @@
     border-left: #ff82a0 solid 11px;
   }
   .promote-slide-item img {
-    -o-object-fit: cover;
-       object-fit: cover;
     height: calc(100vh - 130px);
   }
 
@@ -631,8 +627,6 @@
   }
 
   .new-img img {
-    -o-object-fit: cover;
-       object-fit: cover;
     height: 100%;
     max-width: 440px !important;
   }
@@ -1282,8 +1276,6 @@
   }
 
   .new-img img {
-    -o-object-fit: cover;
-       object-fit: cover;
     margin: 0 auto;
     height: 68vw;
     max-width: 75vw !important;

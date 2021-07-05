@@ -44,9 +44,10 @@ function initOwlSlider() {
     var $promoteList = $('.promote-list');
     $promoteList.owlCarousel({
         loop: true,
-        nav: false,
+        nav: true,
         dots: true,
         items: 1,
+        navText: ["<i class='glyphicon glyphicon-menu-left nav-prev'></i>", "<i class='glyphicon glyphicon-menu-right nav-next'></i>"],
         responsiveRefreshRate: 0,
         responsive: {
             0: {},

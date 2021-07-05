@@ -9,6 +9,22 @@
     z-index: 1;
     color: map-get($map: $color, $key: white);
   }
+
+  .promote {
+    color: map-get($map: $color, $key: fashion);
+    .nav-prev {
+      position: absolute;
+      left: 0;
+      padding: 10px 0;
+      background-color: map-get($map: $color, $key: gray);
+    }
+    .nav-next {
+      position: absolute;
+      right: 0;
+      padding: 10px 0;
+      background-color: map-get($map: $color, $key: gray);
+    }
+  }
 }
 
 @mixin promote-PC {
@@ -16,6 +32,14 @@
 @mixin promote-PC-Tablet {
   .promote {
     padding-top: $header-height-pc;
+    .nav-prev {
+      top: 45%;
+      font-size: 2vmax;
+    }
+    .nav-next {
+      top: 45%;
+      font-size: 2vmax;
+    }
   }
   .promote-slide-item {
     &.promote-slide-item-fashion {
@@ -73,12 +97,19 @@
 @mixin promote-Mobile {
   .promote {
     padding-top: $header-height-mobile;
+    .nav-prev {
+      top: 37%;
+      font-size: 20px;
+    }
+    .nav-next {
+      top: 37%;
+      font-size: 20px;
+    }
   }
   .promote-slide-item {
-    height: 61.5vmax;
     img {
-      object-fit: cover;
-      height: 100%;
+      width: 100%;
+      height: 65vw;
     }
     &.promote-slide-item-fashion {
       border-left: map-get($map: $color, $key: fashion) solid 7px;

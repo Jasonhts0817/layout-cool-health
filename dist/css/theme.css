@@ -84,6 +84,22 @@ button {
   color: #fff;
 }
 
+.promote {
+  color: #002bc1;
+}
+.promote .nav-prev {
+  position: absolute;
+  left: 0;
+  padding: 10px 0;
+  background-color: #eaeaea;
+}
+.promote .nav-next {
+  position: absolute;
+  right: 0;
+  padding: 10px 0;
+  background-color: #eaeaea;
+}
+
 .news {
   -webkit-box-shadow: initial;
           box-shadow: initial;

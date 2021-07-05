@@ -11,8 +11,8 @@ const isProduction = process.env.NODE_ENV == "production";
 const config = {
   entry: {
     main: "./src/index.js",
-    theme: "./src/scss/theme.scss",
-    'theme-rwd': "./src/scss/theme-rwd.scss",
+    coolhealth: "./src/scss/coolhealth.scss",
+    'coolhealth-rwd': "./src/scss/coolhealth-rwd.scss",
   },
   optimization: {
     removeEmptyChunks: true,

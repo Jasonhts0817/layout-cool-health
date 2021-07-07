@@ -4,6 +4,7 @@ $(document).ready(function () {
     headerScroll();
     scrollToHash();
     iframeVideo();
+    setAnimation();
 });
 
 function iframeVideo() {
@@ -200,4 +201,10 @@ function headerFreeze() {
     setTimeout(function () {
         hdr.data("freeze", false);
     }, 1000);
+}
+
+function setAnimation() {
+    var hoverIcon = $(".hover-icon");
+    hoverIcon.addClass('move-up-down');
+    setTimeout(function () { hoverIcon.removeClass('move-up-down'); }, 5000);
 }

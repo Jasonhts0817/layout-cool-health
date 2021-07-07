@@ -1,6 +1,63 @@
 @mixin sidebar {
 }
 @mixin sidebar-PC {
+  .sidebar-widget {
+    h4 {
+      font-size: 8.6vw;
+      font-weight: 300;
+      margin: 1.8vw auto;
+      padding: 0;
+    }
+    .list-unstyled > li > a {
+      padding: 0;
+    }
+  }
+  .recent-post {
+    li {
+      display: flex;
+      width: 100%;
+      height: 149px;
+      padding-bottom: 0;
+      a {
+        width: 50%;
+        height: 100%;
+        max-width: initial !important;
+        margin-right: 0 !important;
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    span.post-rank {
+      margin: 0 5px !important;
+      padding: 0 4px !important;
+    }
+  }
+  .post-content {
+    width: 50% !important;
+    border-width: 0 1vmin 1vmin 0.8vmin;
+    border-style: solid;
+    border-color: map-get($map: $color, $key: white);
+    background-color: map-get($map: $color, $key: white);
+    overflow: hidden;
+    span {
+      color: map-get($map: $color, $key: black) !important;
+      font-size: 10px;
+      font-weight: 500 !important;
+      letter-spacing: 1px;
+      margin-bottom: 0.2vw;
+    }
+    h5 {
+      a {
+        color: map-get($map: $color, $key: black) !important;
+      }
+      font-size: 20px;
+      line-height: 26px;
+      font-weight: 700 !important;
+    }
+  }
 }
 @mixin sidebar-PC-Tablet {
 }

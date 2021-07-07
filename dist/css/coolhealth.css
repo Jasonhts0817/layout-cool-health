@@ -46,6 +46,11 @@ button {
             transform: translateY(-5px);
   }
 }
+.move-up-down {
+  -webkit-animation: MoveUpDown 1.5s linear infinite;
+          animation: MoveUpDown 1.5s linear infinite;
+}
+
 .hdr {
   width: 100%;
   background-color: #eaeaea;
@@ -147,6 +152,9 @@ button {
 }
 .category-title.category-title-gender {
   background-color: #ff82a0;
+}
+.category-title:hover {
+  color: #fff;
 }
 
 .hot-video-item iframe {

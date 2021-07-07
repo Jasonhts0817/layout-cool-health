@@ -22,6 +22,9 @@
     &.category-title-gender {
       background-color: map-get($map: $color, $key: gender);
     }
+    &:hover {
+      color: map-get($map: $color, $key: white);
+    }
   }
 }
 @mixin category-PC {

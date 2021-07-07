@@ -2,7 +2,8 @@
 
 // common
 @import "./main/_reset.scss";
-@import "./main/common.scss";
+@import "./main/_common.scss";
+@import "./main/_animation.scss";
 
 @include header;
 @include footer;

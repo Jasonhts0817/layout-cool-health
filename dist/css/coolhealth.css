@@ -25,6 +25,27 @@ button {
   background-color: rgba(0, 0, 0, 0);
 }
 
+@-webkit-keyframes MoveUpDown {
+  0%, 100% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
 .hdr {
   width: 100%;
   background-color: #eaeaea;

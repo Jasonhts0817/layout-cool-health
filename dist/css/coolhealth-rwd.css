@@ -337,6 +337,8 @@
   }
 
   .hover-icon {
+    -webkit-animation: MoveUpDown 1.5s linear infinite;
+            animation: MoveUpDown 1.5s linear infinite;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -477,6 +479,7 @@
   .promote {
     padding-top: 140px;
     max-width: 1200px;
+    min-height: calc(100vmin - 140px);
     margin: 0 auto;
   }
   .promote .nav-prev {
@@ -488,6 +491,9 @@
     font-size: 2vmax;
   }
 
+  .promote-slide-item {
+    min-height: calc(100vmin - 140px);
+  }
   .promote-slide-item.promote-slide-item-fashion img {
     border-left: #002bc1 solid 11px;
   }
@@ -503,6 +509,7 @@
   .promote-slide-item.promote-slide-item-gender img {
     border-left: #ff82a0 solid 11px;
   }
+
   .promote-slide-title {
     color: #002bc1;
     font-size: 39px;

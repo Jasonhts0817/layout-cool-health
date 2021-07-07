@@ -80,7 +80,7 @@
       left: 0;
       font-size: 30px;
       padding: 10px 0;
-      background-color: map-get($map: $color, $key: gray);
+      background-color: map-get($map: $color, $key: opacity-gray);
     }
     .nav-next {
       position: absolute;
@@ -88,7 +88,7 @@
       right: 0;
       font-size: 30px;
       padding: 10px 0;
-      background-color: map-get($map: $color, $key: gray);
+      background-color: map-get($map: $color, $key: opacity-gray);
     }
   }
   .hot-video-item {

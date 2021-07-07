@@ -19,7 +19,6 @@
   }
   .new-img {
     img {
-      height: 100%;
       width: 440px !important;
     }
   }
@@ -54,7 +53,6 @@
   }
   .new-img {
     img {
-      height: 100%;
       max-width: 440px !important;
     }
   }
@@ -169,14 +167,13 @@
   .owl-item {
     &:not(.active.center) {
       .news-item {
-        transform: scale(0.83) translateY(-6%);
+        transform: scale(0.76) translateY(-13%);
       }
     }
   }
   .new-img {
     img {
       margin: 0 auto;
-      height: 68vw;
       max-width: 75vw !important;
     }
   }

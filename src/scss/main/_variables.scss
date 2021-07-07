@@ -6,7 +6,7 @@ $tablet-min-width: 767px;
 $boostrap-desktop-min-width: 992px;
 $boostrap-tablet-min-width: 767px;
 
-$header-height-pc: 130px;
+$header-height-pc: 140px;
 $header-height-mobile: 70px;
 $footer-height-pc: 140px;
 $footer-height-mobile: 50px;
@@ -36,6 +36,7 @@ $color: (
   expert: #002bc1,
   gender: #ff82a0,
   gray: #eaeaea,
+  opacity-gray: rgba(234, 234, 234, 0.5),
   dark-gray: #999a9a,
   white: #fff,
   black: #000,

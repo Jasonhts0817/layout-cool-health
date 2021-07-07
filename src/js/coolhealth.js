@@ -47,6 +47,7 @@ function initOwlSlider() {
         nav: true,
         dots: true,
         items: 1,
+        autoHeight: true,
         navText: ["<i class='glyphicon glyphicon-menu-left nav-prev'></i>", "<i class='glyphicon glyphicon-menu-right nav-next'></i>"],
         responsiveRefreshRate: 0,
         responsive: {
@@ -65,7 +66,7 @@ function initOwlSlider() {
         responsive: {
             0: {
                 center: true,
-                items: 1.3
+                items: 1.35
             },
             767: {
                 items: 1
@@ -176,9 +177,9 @@ function headerScroll() {
         }
         var currentScrollPos = win.scrollTop();
         if (prevScrollpos > currentScrollPos) {
-            hdr.attr('style', 'top:0');
+            hdr.attr('style', 'top:0px');
         } else {
-            hdr.attr('style', 'top:' + (hdr.height() * -1));
+            hdr.attr('style', 'top:' + (hdr.height() * -1) + 'px');
         }
         prevScrollpos = currentScrollPos;
     });

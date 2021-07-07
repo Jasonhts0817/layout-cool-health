@@ -78,12 +78,6 @@ button {
   display: flex;
 }
 
-.promote-slide-title {
-  position: absolute;
-  z-index: 1;
-  color: #fff;
-}
-
 .promote {
   color: #002bc1;
 }
@@ -91,13 +85,13 @@ button {
   position: absolute;
   left: 0;
   padding: 10px 0;
-  background-color: #eaeaea;
+  background-color: rgba(234, 234, 234, 0.5);
 }
 .promote .nav-next {
   position: absolute;
   right: 0;
   padding: 10px 0;
-  background-color: #eaeaea;
+  background-color: rgba(234, 234, 234, 0.5);
 }
 
 .news {

@@ -118,7 +118,7 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("/images/cool-health/navigation/cool-health_material-04.svg");
+  background-image: url("../images/cool-health/navigation/cool-health_material-04.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -136,7 +136,7 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("/images/cool-health/navigation/cool-health_material-04.svg");
+  background-image: url("../images/cool-health/navigation/cool-health_material-04.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

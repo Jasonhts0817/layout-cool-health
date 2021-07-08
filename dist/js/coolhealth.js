@@ -131,8 +131,12 @@ function owlSliderEnableLazyload($owlSlider) {
             if (isInView) {
                 console.log('owl img inview');
                 var $img = $(this);
+                $img.one("load", function () {
+                    $owlSlider.trigger('refresh.owl.carousel');
+                });
                 $img.attr('src', $img.attr('data-lazy'));
                 $img.removeAttr('data-lazy');
+
             }
         });
     }

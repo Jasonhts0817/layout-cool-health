@@ -1,0 +1,24 @@
+@import "./main/_variables.scss";
+@import "./main/_response.scss";
+
+@import "./feature/sidebar/_sidebar.scss";
+
+@include boostrap-response(PC) {
+  @include sidebar-PC;
+}
+
+@include boostrap-response(PC-Tablet) {
+  @include sidebar-PC-Tablet;
+}
+
+@include boostrap-response(Tablet) {
+  @include sidebar-Tablet;
+}
+
+@include boostrap-response(Tablet-Mobile) {
+  @include sidebar-Tablet-Mobile;
+}
+
+@include boostrap-response(Mobile) {
+  @include sidebar-Mobile;
+}

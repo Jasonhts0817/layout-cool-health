@@ -13,6 +13,7 @@ const config = {
     main: "./src/index.js",
     coolhealth: "./src/scss/coolhealth.scss",
     'coolhealth-rwd': "./src/scss/coolhealth-rwd.scss",
+    'coolhealth-sidebar': "./src/scss/coolhealth-sidebar.scss",
   },
   optimization: {
     removeEmptyChunks: true,

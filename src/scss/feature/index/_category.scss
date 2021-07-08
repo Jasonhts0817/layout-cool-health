@@ -70,10 +70,9 @@
         border-width: 20px 30px 20px 25px;
 
         .article-date {
-          font-size: 12px;
+          font-size: 13px;
           font-weight: 500;
           margin-bottom: 13px;
-          letter-spacing: 1px;
         }
         .article-title {
           overflow: hidden;
@@ -84,11 +83,10 @@
         }
 
         .article-content {
-          font-size: 12px;
+          font-size: 14px;
           font-weight: 500;
-          line-height: 27px;
+          line-height: 24px;
           margin-bottom: 13px;
-          letter-spacing: 2px;
         }
       }
     }
@@ -106,10 +104,10 @@
         overflow: hidden;
         height: 77px;
         width: 100%;
-        border-width: 15px 20px;
+        border-width: 5px 20px;
         .article-title {
-          font-size: 20px;
-          line-height: 25px;
+          font-size: 24px;
+          line-height: 33px;
           font-weight: 700;
         }
       }
@@ -245,10 +243,9 @@
         }
 
         .article-content {
-          font-size: 0.8vw;
+          font-size: 1vw;
           font-weight: 500;
-          line-height: 2.3vw;
-          letter-spacing: 2px;
+          line-height: 1.7vw;
         }
       }
     }
@@ -267,10 +264,10 @@
         overflow: hidden;
         height: 5.6vw;
         width: 100%;
-        border-width: 1vw 1.5vw;
+        border-width: 0.5vw 1.5vw;
         .article-title {
-          font-size: 1.47vw;
-          line-height: 1.9vw;
+          font-size: 1.7vw;
+          line-height: 2.4vw;
           font-weight: 700;
         }
       }

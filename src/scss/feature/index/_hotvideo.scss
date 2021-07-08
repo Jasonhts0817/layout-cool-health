@@ -78,17 +78,41 @@
       position: absolute;
       top: 37%;
       left: 0;
-      font-size: 30px;
-      padding: 10px 0;
       background-color: map-get($map: $color, $key: opacity-gray);
+      width: 30px;
+      height: 50px;
+      .nav-prev-icon {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url("/images/cool-health/navigation/cool-health_material-04.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        transform: rotate(-90deg);
+      }
     }
     .nav-next {
       position: absolute;
       top: 37%;
       right: 0;
-      font-size: 30px;
-      padding: 10px 0;
       background-color: map-get($map: $color, $key: opacity-gray);
+      width: 30px;
+      height: 50px;
+      .nav-next-icon {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url("/images/cool-health/navigation/cool-health_material-04.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        transform: rotate(90deg);
+      }
     }
   }
   .hot-video-item {

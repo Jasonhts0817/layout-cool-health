@@ -47,8 +47,9 @@ function initOwlSlider() {
         loop: true,
         nav: true,
         dots: true,
+        autoHeight: true,
         items: 1,
-        navText: ["<i class='glyphicon glyphicon-menu-left nav-prev'></i>", "<i class='glyphicon glyphicon-menu-right nav-next'></i>"],
+        navText: ["<div class='nav-prev'><span class='nav-prev-icon'></span></div>", "<div class='nav-next'><span class='nav-next-icon'></span></div>"],
         responsiveRefreshRate: 0,
         responsive: {
             0: {},
@@ -100,7 +101,7 @@ function initOwlSlider() {
         nav: true,
         dots: false,
         loop: true,
-        navText: ["<i class='glyphicon glyphicon-menu-left nav-prev'></i>", "<i class='glyphicon glyphicon-menu-right nav-next'></i>"],
+        navText: ["<div class='nav-prev'><span class='nav-prev-icon'></span></div>", "<div class='nav-next'><span class='nav-next-icon'></span></div>"],
         responsiveRefreshRate: 0,
         responsive: {
             0: {

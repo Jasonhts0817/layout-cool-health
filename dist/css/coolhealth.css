@@ -110,14 +110,38 @@ button {
 .promote .nav-prev {
   position: absolute;
   left: 0;
-  padding: 10px 0;
   background-color: rgba(234, 234, 234, 0.5);
+}
+.promote .nav-prev .nav-prev-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("/images/cool-health/navigation/cool-health_material-04.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 .promote .nav-next {
   position: absolute;
   right: 0;
-  padding: 10px 0;
   background-color: rgba(234, 234, 234, 0.5);
+}
+.promote .nav-next .nav-next-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("/images/cool-health/navigation/cool-health_material-04.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .news {

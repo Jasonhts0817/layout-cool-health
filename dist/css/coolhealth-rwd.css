@@ -74,11 +74,11 @@
 
   .new-article .news-article-title {
     font-size: 35px;
-    line-height: 37px;
+    line-height: 45px;
   }
   .new-article .news-article-abstract {
     font-size: 14px;
-    line-height: 25px;
+    line-height: 23px;
   }
 
   .new-img img {
@@ -144,10 +144,9 @@
     border-width: 20px 30px 20px 25px;
   }
   .article-item.article-item-large .article-desc .article-date {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     margin-bottom: 13px;
-    letter-spacing: 1px;
   }
   .article-item.article-item-large .article-desc .article-title {
     overflow: hidden;
@@ -157,11 +156,10 @@
     margin-bottom: 15px;
   }
   .article-item.article-item-large .article-desc .article-content {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 27px;
+    line-height: 24px;
     margin-bottom: 13px;
-    letter-spacing: 2px;
   }
   .article-item.article-item-small {
     width: 320px;
@@ -177,11 +175,11 @@
     overflow: hidden;
     height: 77px;
     width: 100%;
-    border-width: 15px 20px;
+    border-width: 5px 20px;
   }
   .article-item.article-item-small .article-desc .article-title {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 33px;
     font-weight: 700;
   }
   .article-item.article-item-small .article-content {
@@ -248,7 +246,7 @@
 @media screen and (min-width: 768px) {
   .hdr-container {
     max-width: 1200px;
-    min-height: 140px;
+    min-height: 130px;
     margin: 0 auto;
   }
   .hdr-container .social-list {
@@ -365,7 +363,7 @@
 
   .logo {
     width: 78.8%;
-    padding: 0 20px 10px 0;
+    padding: 0 20px 0 0;
   }
   .logo img {
     max-width: 560px;
@@ -475,22 +473,24 @@
   }
 
   .promote {
-    padding-top: 140px;
+    padding-top: 130px;
     max-width: 1200px;
-    min-height: calc(100vmin - 140px);
+    min-height: calc(100vmin - 130px);
     margin: 0 auto;
   }
   .promote .nav-prev {
     top: 45%;
-    font-size: 2vmax;
+    width: 30px;
+    height: 50px;
   }
   .promote .nav-next {
     top: 45%;
-    font-size: 2vmax;
+    width: 30px;
+    height: 50px;
   }
 
   .promote-slide-item {
-    min-height: calc(100vmin - 140px);
+    min-height: calc(100vmin - 130px);
   }
   .promote-slide-item.promote-slide-item-fashion img {
     border-left: #002bc1 solid 11px;
@@ -509,6 +509,7 @@
   }
 
   .promote-slide-title {
+    padding-left: 5.5%;
     color: #002bc1;
     font-size: 39px;
     font-weight: 700;
@@ -693,17 +694,43 @@
     position: absolute;
     top: 37%;
     left: 0;
-    font-size: 30px;
-    padding: 10px 0;
     background-color: rgba(234, 234, 234, 0.5);
+    width: 30px;
+    height: 50px;
+  }
+  .hot-video .nav-prev .nav-prev-icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("/images/cool-health/navigation/cool-health_material-04.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
   }
   .hot-video .nav-next {
     position: absolute;
     top: 37%;
     right: 0;
-    font-size: 30px;
-    padding: 10px 0;
     background-color: rgba(234, 234, 234, 0.5);
+    width: 30px;
+    height: 50px;
+  }
+  .hot-video .nav-next .nav-next-icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("/images/cool-health/navigation/cool-health_material-04.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
   }
 
   .hot-video-item {
@@ -747,11 +774,11 @@
 
   .new-article .news-article-title {
     font-size: 2.62vmax;
-    line-height: 2.8vmax;
+    line-height: 3.3vmax;
   }
   .new-article .news-article-abstract {
-    font-size: 1vmax;
-    line-height: 1.55vmax;
+    font-size: 1.1vmax;
+    line-height: 1.65vmax;
   }
 
   .new-list {
@@ -825,10 +852,9 @@
     margin-bottom: 1.2vw;
   }
   .article-item.article-item-large .article-desc .article-content {
-    font-size: 0.8vw;
+    font-size: 1vw;
     font-weight: 500;
-    line-height: 2.3vw;
-    letter-spacing: 2px;
+    line-height: 1.7vw;
   }
   .article-item.article-item-small {
     width: 48.1%;
@@ -844,11 +870,11 @@
     overflow: hidden;
     height: 5.6vw;
     width: 100%;
-    border-width: 1vw 1.5vw;
+    border-width: 0.5vw 1.5vw;
   }
   .article-item.article-item-small .article-desc .article-title {
-    font-size: 1.47vw;
-    line-height: 1.9vw;
+    font-size: 1.7vw;
+    line-height: 2.4vw;
     font-weight: 700;
   }
   .article-item.article-item-small .article-content {
@@ -1153,6 +1179,9 @@
     display: -ms-flexbox;
     display: flex;
     padding: 5px 0 0 5px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
   .promote-list .owl-dots .owl-dot {
     width: 9px;

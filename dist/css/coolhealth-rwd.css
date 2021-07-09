@@ -520,9 +520,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .promote-list .owl-dots .owl-dot {
     width: 10px;
@@ -1168,6 +1168,7 @@
   }
 
   .promote-slide-title {
+    padding: 1vw 5vw;
     color: #002bc1;
     font-size: 23px;
     font-weight: 700;
@@ -1179,9 +1180,9 @@
     display: -ms-flexbox;
     display: flex;
     padding: 5px 0 0 5px;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .promote-list .owl-dots .owl-dot {
     width: 9px;

@@ -49,7 +49,6 @@
   .promote {
     padding-top: $header-height-pc;
     max-width: $container;
-    min-height: calc(100vmin - #{$header-height-pc});
     margin: 0 auto;
     .nav-prev {
       top: 45%;
@@ -63,7 +62,6 @@
     }
   }
   .promote-slide-item {
-    min-height: calc(100vmin - #{$header-height-pc});
     &.promote-slide-item-fashion img {
       border-left: map-get($map: $color, $key: fashion) solid 11px;
     }

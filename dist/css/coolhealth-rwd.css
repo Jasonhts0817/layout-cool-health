@@ -475,7 +475,6 @@
   .promote {
     padding-top: 130px;
     max-width: 1200px;
-    min-height: calc(100vmin - 130px);
     margin: 0 auto;
   }
   .promote .nav-prev {
@@ -489,9 +488,6 @@
     height: 50px;
   }
 
-  .promote-slide-item {
-    min-height: calc(100vmin - 130px);
-  }
   .promote-slide-item.promote-slide-item-fashion img {
     border-left: #002bc1 solid 11px;
   }

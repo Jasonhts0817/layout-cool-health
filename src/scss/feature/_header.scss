@@ -75,69 +75,6 @@
       letter-spacing: 4px;
       padding: 30px 0;
       border-top: map-get($map: $color, $key: opacity-0) solid 4px;
-      &.nav-item-news {
-        &:hover,
-        &:active,
-        &:focus,
-        &.active {
-          border-top: map-get($map: $color, $key: news) solid 4px;
-          color: map-get($map: $color, $key: news);
-        }
-      }
-      &.nav-item-fashion {
-        &:hover,
-        &:active,
-        &:focus,
-        &.active {
-          border-top: map-get($map: $color, $key: fashion) solid 4px;
-          color: map-get($map: $color, $key: fashion);
-        }
-      }
-      &.nav-item-tech {
-        &:hover,
-        &:active,
-        &:focus,
-        &.active {
-          border-top: map-get($map: $color, $key: tech) solid 4px;
-          color: map-get($map: $color, $key: tech);
-        }
-      }
-      &.nav-item-aesthetic {
-        &:hover,
-        &:active,
-        &:focus,
-        &.active {
-          border-top: map-get($map: $color, $key: aesthetic) solid 4px;
-          color: map-get($map: $color, $key: aesthetic);
-        }
-      }
-      &.nav-item-fittness {
-        &:hover,
-        &:active,
-        &:focus,
-        &.active {
-          border-top: map-get($map: $color, $key: fittness) solid 4px;
-          color: map-get($map: $color, $key: fittness);
-        }
-      }
-      &.nav-item-expert {
-        &:hover,
-        &:active,
-        &:focus,
-        &.active {
-          border-top: map-get($map: $color, $key: fashion) solid 4px;
-          color: map-get($map: $color, $key: fashion);
-        }
-      }
-      &.nav-item-gender {
-        &:hover,
-        &:active,
-        &:focus,
-        &.active {
-          border-top: map-get($map: $color, $key: gender) solid 4px;
-          color: map-get($map: $color, $key: gender);
-        }
-      }
     }
   }
   .hover-icon {
@@ -261,27 +198,6 @@
       border-top: map-get($map: $color, $key: fashion) solid 1px;
       &:last-child {
         border-bottom: map-get($map: $color, $key: fashion) solid 1px;
-      }
-      &.nav-item-news {
-        border-right: map-get($map: $color, $key: news) solid 15px;
-      }
-      &.nav-item-fashion {
-        border-right: map-get($map: $color, $key: fashion) solid 15px;
-      }
-      &.nav-item-tech {
-        border-right: map-get($map: $color, $key: tech) solid 15px;
-      }
-      &.nav-item-aesthetic {
-        border-right: map-get($map: $color, $key: aesthetic) solid 15px;
-      }
-      &.nav-item-fittness {
-        border-right: map-get($map: $color, $key: fittness) solid 15px;
-      }
-      &.nav-item-expert {
-        border-right: map-get($map: $color, $key: fashion) solid 15px;
-      }
-      &.nav-item-gender {
-        border-right: map-get($map: $color, $key: gender) solid 15px;
       }
       &:hover {
         color: map-get($map: $color, $key: black);

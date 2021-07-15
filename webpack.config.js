@@ -14,6 +14,7 @@ const config = {
     coolhealth: "./src/scss/coolhealth.scss",
     'coolhealth-rwd': "./src/scss/coolhealth-rwd.scss",
     'coolhealth-sidebar': "./src/scss/coolhealth-sidebar.scss",
+    'coolhealth-color-type': "./src/scss/coolhealth-color-type.scss",
   },
   optimization: {
     removeEmptyChunks: true,

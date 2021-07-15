@@ -159,24 +159,6 @@ button {
 .category-title {
   z-index: 1;
 }
-.category-title.category-title-fashion {
-  background-color: #002bc1;
-}
-.category-title.category-title-fittness {
-  background-color: #ff8200;
-}
-.category-title.category-title-tech {
-  background-color: #0082c3;
-}
-.category-title.category-title-aesthetic {
-  background-color: #00afaf;
-}
-.category-title.category-title-expert {
-  background-color: #002bc1;
-}
-.category-title.category-title-gender {
-  background-color: #ff82a0;
-}
 .category-title:hover {
   color: #fff;
 }

@@ -4,24 +4,6 @@
   }
   .category-title {
     z-index: 1;
-    &.category-title-fashion {
-      background-color: map-get($map: $color, $key: fashion);
-    }
-    &.category-title-fittness {
-      background-color: map-get($map: $color, $key: fittness);
-    }
-    &.category-title-tech {
-      background-color: map-get($map: $color, $key: tech);
-    }
-    &.category-title-aesthetic {
-      background-color: map-get($map: $color, $key: aesthetic);
-    }
-    &.category-title-expert {
-      background-color: map-get($map: $color, $key: expert);
-    }
-    &.category-title-gender {
-      background-color: map-get($map: $color, $key: gender);
-    }
     &:hover {
       color: map-get($map: $color, $key: white);
     }

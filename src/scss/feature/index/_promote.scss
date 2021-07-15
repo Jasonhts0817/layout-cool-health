@@ -61,23 +61,7 @@
       height: 50px;
     }
   }
-  .promote-slide-item {
-    &.promote-slide-item-fashion img {
-      border-left: map-get($map: $color, $key: fashion) solid 11px;
-    }
-    &.promote-slide-item-fittness img {
-      border-left: map-get($map: $color, $key: fittness) solid 11px;
-    }
-    &.promote-slide-item-tech img {
-      border-left: map-get($map: $color, $key: tech) solid 11px;
-    }
-    &.promote-slide-item-aesthetic img {
-      border-left: map-get($map: $color, $key: aesthetic) solid 11px;
-    }
-    &.promote-slide-item-gender img {
-      border-left: map-get($map: $color, $key: gender) solid 11px;
-    }
-  }
+
   .promote-slide-title {
     padding-left: 5.5%;
     color: map-get($map: $color, $key: fashion);
@@ -122,21 +106,6 @@
   .promote-slide-item {
     img {
       width: 100%;
-    }
-    &.promote-slide-item-fashion img {
-      border-left: map-get($map: $color, $key: fashion) solid 7px;
-    }
-    &.promote-slide-item-fittness img {
-      border-left: map-get($map: $color, $key: fittness) solid 7px;
-    }
-    &.promote-slide-item-tech img {
-      border-left: map-get($map: $color, $key: tech) solid 7px;
-    }
-    &.promote-slide-item-aesthetic img {
-      border-left: map-get($map: $color, $key: aesthetic) solid 7px;
-    }
-    &.promote-slide-item-gender img {
-      border-left: map-get($map: $color, $key: gender) solid 7px;
     }
   }
   .promote-slide-title {

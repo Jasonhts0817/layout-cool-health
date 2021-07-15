@@ -1,0 +1,186 @@
+@import "./main/_variables.scss";
+@import "./main/_response.scss";
+
+.category-title {
+  &.category-title-fashion {
+    background-color: map-get($map: $color, $key: fashion);
+  }
+  &.category-title-fittness {
+    background-color: map-get($map: $color, $key: fittness);
+  }
+  &.category-title-tech {
+    background-color: map-get($map: $color, $key: tech);
+  }
+  &.category-title-aesthetic {
+    background-color: map-get($map: $color, $key: aesthetic);
+  }
+  &.category-title-expert {
+    background-color: map-get($map: $color, $key: expert);
+  }
+  &.category-title-gender {
+    background-color: map-get($map: $color, $key: gender);
+  }
+  &.category-title-spirit {
+    background-color: map-get($map: $color, $key: spirit);
+  }
+}
+@include response(PC) {
+}
+
+@include response(PC-Tablet) {
+  .nav-list {
+    .nav-item {
+      &.nav-item-news {
+        &:hover,
+        &:active,
+        &:focus,
+        &.active {
+          border-top: map-get($map: $color, $key: news) solid 4px;
+          color: map-get($map: $color, $key: news);
+        }
+      }
+      &.nav-item-fashion {
+        &:hover,
+        &:active,
+        &:focus,
+        &.active {
+          border-top: map-get($map: $color, $key: fashion) solid 4px;
+          color: map-get($map: $color, $key: fashion);
+        }
+      }
+      &.nav-item-tech {
+        &:hover,
+        &:active,
+        &:focus,
+        &.active {
+          border-top: map-get($map: $color, $key: tech) solid 4px;
+          color: map-get($map: $color, $key: tech);
+        }
+      }
+      &.nav-item-aesthetic {
+        &:hover,
+        &:active,
+        &:focus,
+        &.active {
+          border-top: map-get($map: $color, $key: aesthetic) solid 4px;
+          color: map-get($map: $color, $key: aesthetic);
+        }
+      }
+      &.nav-item-fittness {
+        &:hover,
+        &:active,
+        &:focus,
+        &.active {
+          border-top: map-get($map: $color, $key: fittness) solid 4px;
+          color: map-get($map: $color, $key: fittness);
+        }
+      }
+      &.nav-item-expert {
+        &:hover,
+        &:active,
+        &:focus,
+        &.active {
+          border-top: map-get($map: $color, $key: fashion) solid 4px;
+          color: map-get($map: $color, $key: fashion);
+        }
+      }
+      &.nav-item-gender {
+        &:hover,
+        &:active,
+        &:focus,
+        &.active {
+          border-top: map-get($map: $color, $key: gender) solid 4px;
+          color: map-get($map: $color, $key: gender);
+        }
+      }
+      &.nav-item-spirit {
+        &:hover,
+        &:active,
+        &:focus,
+        &.active {
+          border-top: map-get($map: $color, $key: spirit) solid 4px;
+          color: map-get($map: $color, $key: spirit);
+        }
+      }
+    }
+  }
+
+  .promote-slide-item {
+    &.promote-slide-item-fashion img {
+      border-left: map-get($map: $color, $key: fashion) solid 11px;
+    }
+    &.promote-slide-item-fittness img {
+      border-left: map-get($map: $color, $key: fittness) solid 11px;
+    }
+    &.promote-slide-item-tech img {
+      border-left: map-get($map: $color, $key: tech) solid 11px;
+    }
+    &.promote-slide-item-aesthetic img {
+      border-left: map-get($map: $color, $key: aesthetic) solid 11px;
+    }
+    &.promote-slide-item-gender img {
+      border-left: map-get($map: $color, $key: gender) solid 11px;
+    }
+    &.promote-slide-item-spirit img {
+      border-left: map-get($map: $color, $key: spirit) solid 11px;
+    }
+  }
+}
+
+@include response(Tablet) {
+}
+
+@include response(Tablet-Mobile) {
+}
+
+@include response(Mobile) {
+  .nav-list {
+    .nav-item {
+      &.nav-item-news {
+        border-right: map-get($map: $color, $key: news) solid 15px;
+      }
+      &.nav-item-fashion {
+        border-right: map-get($map: $color, $key: fashion) solid 15px;
+      }
+      &.nav-item-tech {
+        border-right: map-get($map: $color, $key: tech) solid 15px;
+      }
+      &.nav-item-aesthetic {
+        border-right: map-get($map: $color, $key: aesthetic) solid 15px;
+      }
+      &.nav-item-fittness {
+        border-right: map-get($map: $color, $key: fittness) solid 15px;
+      }
+      &.nav-item-expert {
+        border-right: map-get($map: $color, $key: fashion) solid 15px;
+      }
+      &.nav-item-gender {
+        border-right: map-get($map: $color, $key: gender) solid 15px;
+      }
+      &.nav-item-spirit {
+        border-right: map-get($map: $color, $key: spirit) solid 15px;
+      }
+    }
+  }
+
+  .promote-slide-item {
+    &.promote-slide-item-fashion img {
+      border-left: map-get($map: $color, $key: fashion) solid 7px;
+    }
+    &.promote-slide-item-fittness img {
+      border-left: map-get($map: $color, $key: fittness) solid 7px;
+    }
+    &.promote-slide-item-tech img {
+      border-left: map-get($map: $color, $key: tech) solid 7px;
+    }
+    &.promote-slide-item-aesthetic img {
+      border-left: map-get($map: $color, $key: aesthetic) solid 7px;
+    }
+    &.promote-slide-item-gender img {
+      border-left: map-get($map: $color, $key: gender) solid 7px;
+    }
+    &.promote-slide-item-spirit img {
+      border-left: map-get($map: $color, $key: spirit) solid 7px;
+    }
+  }
+}

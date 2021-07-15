@@ -63,6 +63,7 @@ function initOwlSlider() {
         loop: true,
         nav: false,
         dots: true,
+        autoHeight: true,
         responsiveRefreshRate: 0,
         responsive: {
             0: {

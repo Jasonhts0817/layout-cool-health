@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@webpack-cli/generators": "^2.2.0",
+    "@webpack-cli/generators": "^3.0.7",
     "autoprefixer": "^10.2.6",
     "browserslist": "^4.16.6",
     "copy-webpack-plugin": "^9.0.0",

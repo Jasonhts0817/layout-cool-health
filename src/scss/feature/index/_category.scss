@@ -3,7 +3,7 @@
     z-index: 1;
   }
   .category-title {
-    z-index: 1;
+    z-index: 2;
     &:hover {
       color: map-get($map: $color, $key: white);
     }
